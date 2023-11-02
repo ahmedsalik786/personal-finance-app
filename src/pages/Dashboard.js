@@ -7,7 +7,7 @@ import { addDoc, collection, getDocs, query } from "firebase/firestore";
 import { auth, db } from "../firebase";
 import { toast } from "react-toastify";
 import { useAuthState } from "react-firebase-hooks/auth";
-import moment from "moment/moment";
+
 import TransactionsTable from "../components/TransactionsTable";
 import Charts from "../components/Charts";
 import NoTransaction from "../components/NoTransaction";
